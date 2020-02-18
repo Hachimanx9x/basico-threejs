@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tutorial simple</title>
+    <style media="screen">
+      body{margin:0;}
+    </style>
+  </head>
+  <body>
+    <script src="../libs/three.min.js"></script>
+    <script src="Juego.js"></script>
+    <script>
+
+      document.addEventListener("DOMContentLoaded",function(){
+        const juego = new Juego();
+        windows.game= juego; //esto depura
+      });
+    </script>
+  </body>
+</html>
